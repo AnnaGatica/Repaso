@@ -1,0 +1,36 @@
+let n2 = Number(prompt('Por favor escriba un numero'))
+let n1 = Number(prompt('Por favor escriba un numero'))
+
+
+//Mostrar en la consola el resultado de la suma, resta, multiplicación y división de ambas variables. 
+
+console.log(n1+n2)
+console.log(n1-n2)
+console.log(n1*n2)
+console.log(n1/n2)
+
+
+
+//Crear una variable llamada nombre, la cual el usuario deba ingresar valor, en este caso un nombre, y el programa deberá saludar a dicha persona en una alerta. 
+
+let nombre = prompt('Ingrese un nombre')
+alert('¡Hola ' + nombre) 
+
+
+//alternativa condicional
+
+let notas = Number(prompt('Ingrese un valor numerico'))
+
+if (notas>5) {
+    alert('Estas Aprobado')
+}else{
+    alert('Estas desaprobado')
+}
+
+let dias= prompt('Ingrese un dia de la semana')
+
+if (dias = 'Lunes, Miercoles, Jueves, Sabados') {
+    alert('Se desechan los residuos Secos')
+}else{
+    alert('Se desechan los residuos Humedos')
+}
